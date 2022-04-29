@@ -1,0 +1,18 @@
+{
+  "collectCoverage": true,
+  "testMatch": [
+    "<rootDir>/__tests__/**/*.test.js",
+    "!<rootDir>/__tests__/test_data/*",
+    "!<rootDir>/src/*"
+  ],
+  "collectCoverageFrom": [
+    "<rootDir>/src/**",
+    "!<rootDir>/src/package.json",
+    "!<rootDir>/src/package-lock.json"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "lines": 90
+    }
+  }
+}
